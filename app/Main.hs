@@ -1,7 +1,7 @@
 module Main where
 
 import Lib
-import qualified Deadfish
+import qualified Disemvoweltrolls as Disemvowel
 
 main :: IO ()
-main = print (Deadfish.parse "iiisdoso")
+main = print $ Disemvowel.disemvowel "This website is for losers LOL!"

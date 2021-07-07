@@ -26,6 +26,7 @@ source-repository head
 library
   exposed-modules:
       Deadfish
+      Disemvoweltrolls
       Lib
   other-modules:
       Paths_codewars
