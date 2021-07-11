@@ -1,7 +1,7 @@
 module Main where
 
 import Lib
-import qualified Disemvoweltrolls as Disemvowel
+import Countingdups (duplicateCount, frequency)
 
 main :: IO ()
-main = print $ Disemvowel.disemvowel "This website is for losers LOL!"
+main = print "wow"
