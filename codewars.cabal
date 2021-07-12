@@ -29,8 +29,7 @@ library
       Deadfish
       Disemvoweltrolls
       Lib
-  other-modules:
-      Paths_codewars
+      Titlecase
   hs-source-dirs:
       src
   default-extensions:
@@ -44,8 +43,6 @@ library
 
 executable codewars-exe
   main-is: Main.hs
-  other-modules:
-      Paths_codewars
   hs-source-dirs:
       app
   default-extensions:
@@ -62,8 +59,6 @@ executable codewars-exe
 test-suite codewars-test
   type: exitcode-stdio-1.0
   main-is: Spec.hs
-  other-modules:
-      Paths_codewars
   hs-source-dirs:
       test
   default-extensions:

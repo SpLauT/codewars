@@ -30,6 +30,9 @@ default-extensions:
 
 library:
   source-dirs: src
+  when:
+  - condition: false
+    other-modules: Paths_codewars
 
 executables:
   codewars-exe:
@@ -41,6 +44,9 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - codewars
+    when:
+    - condition: false
+      other-modules: Paths_codewars
 
 tests:
   codewars-test:
@@ -52,3 +58,6 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - codewars
+    when:
+    - condition: false
+      other-modules: Paths_codewars

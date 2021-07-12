@@ -1,7 +1,6 @@
 module Main where
 
-import Lib
-import Countingdups (duplicateCount, frequency)
+import Titlecase (capitalize, titleCase)
 
 main :: IO ()
 main = print "wow"
