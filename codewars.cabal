@@ -29,6 +29,7 @@ library
       Deadfish
       Disemvoweltrolls
       Lib
+      Masker
       Titlecase
   hs-source-dirs:
       src
