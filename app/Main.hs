@@ -1,6 +1,6 @@
 module Main where
 
-import Titlecase (capitalize, titleCase)
+import Titlecase (titleCase)
 
 main :: IO ()
 main = print "wow"
