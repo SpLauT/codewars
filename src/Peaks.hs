@@ -11,7 +11,7 @@ test1 :: [Int] -> PickedPeaks
 test1 = foldl (\(PickedPeaks a b) x  -> PickedPeaks (a ++ [x]) (b ++ [x])) (PickedPeaks [] [])
 
 test2 :: [Int] -> PickedPeaks
-test2 xs = foldl (\(PickedPeaks a b) x  -> if isPeak (drop (x-1) $ take 3 xs) then PickedPeaks (a ++ [x]) (b ++ [xs !! x]) else PickedPeaks a b) (PickedPeaks [] []) [1 .. length xs]
+test2 xs = foldl (\(PickedPeaks a b) x  -> if isPeak (drop (x-1) xs) then PickedPeaks (a ++ [x]) (b ++ [xs !! x]) else PickedPeaks a b) (PickedPeaks [] []) [1 .. length xs]
 
 endFinder :: Int -> [Int] -> Bool
 endFinder y (x:xs) 
