@@ -30,6 +30,7 @@ library
       Disemvoweltrolls
       Lib
       Maskify
+      Peaks
       Phonenumber
       Titlecase
   hs-source-dirs:
