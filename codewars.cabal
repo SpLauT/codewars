@@ -30,6 +30,7 @@ library
       Disemvoweltrolls
       Lib
       Maskify
+      Oddint
       Peaks
       Phonenumber
       Titlecase
