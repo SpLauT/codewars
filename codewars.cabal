@@ -33,6 +33,7 @@ library
       Oddint
       Peaks
       Phonenumber
+      Sumofparts
       Titlecase
   hs-source-dirs:
       src
