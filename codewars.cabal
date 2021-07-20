@@ -27,6 +27,7 @@ library
   exposed-modules:
       Countingdups
       Deadfish
+      Digitalsum
       Disemvoweltrolls
       Lib
       Maskify
